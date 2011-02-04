@@ -1,19 +1,25 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
+  <strong>Name:</strong>
   <%= @post.name %>
 </p>
 
 <p>
-  <b>Title:</b>
+  <strong>Title:</strong>
   <%= @post.title %>
 </p>
 
 <p>
-  <b>Content:</b>
+  <strong>Content:</strong>
   <%= @post.content %>
 </p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @post.tags.map { |t| t.name}.join(", ") %>
+</p>
+
 
 <h2>Comments</h2>
 <%= render :partial => "comments/comment",
