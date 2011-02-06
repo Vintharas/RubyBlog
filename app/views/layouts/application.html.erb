@@ -7,8 +7,22 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-
+<header>
+<div id="subheader">
+<a href="" title="login">login</a>
+</div>
+<div id="title">
+<span id="barbarian">Barbarian</span><span id="meets">meets</span><span id="coding">coding</a> <span id="subtitle">Ruby edition</span>
+</div>
+<nav>
+ <%= link_to 'blog', posts_path %> 
+</nav>
+</header>
+<div id="main">
 <%= yield %>
+</div>
+<footer>
 
+</footer>
 </body>
 </html>

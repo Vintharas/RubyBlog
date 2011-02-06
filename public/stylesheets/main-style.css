@@ -1,0 +1,58 @@
+body{
+  width: 700px;
+  margin: 0 auto;
+  font: 0.85em  Verdana, Helvetica, Arial, Sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* --- Header Styles --- */
+
+header{
+  display: block;
+  padding: 5px 20px 25px 25px;
+  background-color: #102336;
+  color: #FFF;
+}
+
+header #subheader a{
+  color: #0082FF
+  text-align: right;
+}
+
+header #title{
+  font-size: 4em;
+  text-shadow: -1px -1px 0 #CCC,
+                1px -1px 0 #CCC,
+               -2px 2px 0 #555,
+                2px -2px 0 #555;
+}
+
+header #title #barbarian{
+
+}
+
+header #title #meets{
+
+}
+
+header #title #coding{
+
+}
+
+header #title #subtitle{
+   font-size: 10pt;
+   text-shadow: none;
+   color: orange;
+}
+
+header.nav{
+
+}
+
+/* ---- Content Styles ---- */
+
+/* ---- Footer Styles ---- */
+
